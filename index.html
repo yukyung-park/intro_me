@@ -3,18 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <h1>엘리스 토끼</h1>
-      <nav></nav>
+      <nav>
+        <ul>
+          <li><a href="#profile">프로필</a></li>
+          <li><a href="#detail">상세 내용</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <article></article>
-      <section></section>
-
-      <footer></footer>
+      <p id="profile"></p>
+      <article>
+        <h1>엘리스 토끼</h1>
+        <div><img src="profile.png" alt="rabbit" /></div>
+      </article>
     </main>
+    <section class="container" id="detail">
+      <div class="one">
+        <h2>인적사항</h2>
+        <h4>
+          생년월일:
+          <p style="display: inline">1993.10.11</p>
+        </h4>
+        <p>주소</p>
+        <p>연락처</p>
+      </div>
+      <div class="two">
+        <h2>학력사항</h2>
+        <ul>
+          <li>2009.03~2012.02</li>
+          <li>2012.03~2015.02</li>
+          <li>2015.03~2021.02</li>
+        </ul>
+      </div>
+      <div class="three">
+        <h2>경력사항</h2>
+        <ol>
+          <li>한국 정보 올림피아드 대상</li>
+          <li>대학생 봉사 동아리 회장</li>
+          <li>엘리스 SW 트랙 수료</li>
+        </ol>
+      </div>
+      <div class="four">
+        <h2>보유스킬</h2>
+        <ul>
+          <li><a href="">HTML</a></li>
+          <li><a href="">CSS</a></li>
+          <li><a href="">JavaScript</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <p>
+        Author by:엘리스 토끼<br />Copyright © 2016-2018 elice. All rights
+        reserved.
+      </p>
+    </footer>
   </body>
 </html>
